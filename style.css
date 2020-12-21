@@ -5,7 +5,10 @@
 body {
     background: #ccc;
     font-size: 18px;
-    text-align: center;
+    
+}
+body h1, p, img {
+    margin-left: 20px;
 }
 
 .wrapper {
