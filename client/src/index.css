@@ -1,0 +1,24 @@
+.bgImageStarbase {
+  background-color: lightgray;
+}
+
+body {
+  min-height: 200vh;
+  background-image: url("./Assets/Starbase1.jpeg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+.navbar-fixed-left {
+  position: fixed;
+  width: 10%;
+  z-index: 2000;
+}
+
+.introCard{
+    margin-top: 4rem;
+    color: lightgray;
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+    background-color: black;
+}
