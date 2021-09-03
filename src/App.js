@@ -1,5 +1,4 @@
 import Navigation from "./Components/Navigation";
-import Home from "./Components/Home";
 import Wrapper from "./Components/Wrapper";
 
 function App() {

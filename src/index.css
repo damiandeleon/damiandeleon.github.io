@@ -2,12 +2,49 @@
   background-color: lightgray;
 }
 
-body {
-  min-height: 200vh;
-  background-image: url("./Assets/Starbase1.jpeg");
-  background-repeat: no-repeat;
+.bgimg {
   background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
   background-size: cover;
+}
+
+.bgimg-1 {
+  background-image: url("./Assets//Images/Starbase1.webp");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-width: 100%;
+  min-height: 100%;
+}
+.bgimg-2 {
+  background-image: url("./Assets/Images/cool-background.png");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-height: 100%;
+}
+.bgimg-3 {
+  background-image: url("./Assets//Images/wp3589868.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100%;
+}
+
+@media only screen and (max-device-width: 1024px) {
+  .bgimg-1,
+  .bgimg-2,
+  .bgimg-3 {
+    background-attachment: scroll;
+  }
+}
+
+body {
+  min-height: 100%;
 }
 .navbar-fixed-left {
   position: fixed;
@@ -15,10 +52,79 @@ body {
   z-index: 2000;
 }
 
-.introCard{
-    margin-top: 4rem;
-    color: lightgray;
-    font-size: 30px;
-    font-family: 'Roboto', sans-serif;
-    background-color: black;
+.introCard {
+  margin-top: 10vmax;
+  margin-bottom: 10vmax;
+  color: lightgray;
+  font-size: 30px;
+  font-family: "Roboto", sans-serif;
+  background-color: black;
+}
+
+.portfolioPad {
+  position: relative;
+  padding: 10vmax;
+  text-align: center;
+}
+
+.contactPad {
+  padding: 10vmax;
+  text-align: center;
+}
+
+#top {
+  overflow: hidden;
+}
+
+
+
+#top h2 {
+  font-family: "Roboto", sans-serif;
+  color: lightgray;
+  font-size: 1.6rem;
+  position: relative;
+  margin-right : 0rem;
+  margin-left: 0%;
+  padding: 0.8rem 0;
+}
+
+#top h2::before {
+  background-color: black;
+  bottom: 0;
+  content: " ";
+  left: 0rem;
+  position: absolute;
+  right: 0;
+  transform-origin:100% 0;
+  transform: skew(-40deg);
+  top: 0;
+  z-index: -1;
+}
+
+#top-2 {
+  overflow: hidden;
+}
+
+
+
+#top-2 h2 {
+  font-family: "Roboto", sans-serif;
+  color: lightgray;
+  font-size: 1.6rem;
+  position: relative;
+  margin-left: 6rem;
+  padding: 0.8rem 0;
+}
+
+#top-2 h2::before {
+  background-color: black;
+  bottom: 0;
+  content: " ";
+  left: -9999rem;
+  position: absolute;
+  right: 0;
+  transform-origin: 100% 0;
+  transform: skew(-40deg);
+  top: 0;
+  z-index: -1;
 }
