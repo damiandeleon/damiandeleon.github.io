@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/static/css/main.e7ec24f0.chunk.css",
+    "main.js": "/static/js/main.ff8621fb.chunk.js",
+    "main.js.map": "/static/js/main.ff8621fb.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.a9f80a17.js",
+    "runtime-main.js.map": "/static/js/runtime-main.a9f80a17.js.map",
+    "static/js/2.56bc4b8b.chunk.js": "/static/js/2.56bc4b8b.chunk.js",
+    "static/js/2.56bc4b8b.chunk.js.map": "/static/js/2.56bc4b8b.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.e7ec24f0.chunk.css.map": "/static/css/main.e7ec24f0.chunk.css.map",
+    "static/js/2.56bc4b8b.chunk.js.LICENSE.txt": "/static/js/2.56bc4b8b.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/static/media/Starbase1.c2d39cec.jpeg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a9f80a17.js",
+    "static/js/2.56bc4b8b.chunk.js",
+    "static/css/main.e7ec24f0.chunk.css",
+    "static/js/main.ff8621fb.chunk.js"
+  ]
+}
