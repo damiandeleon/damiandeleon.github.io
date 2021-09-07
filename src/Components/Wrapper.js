@@ -2,6 +2,7 @@ import React from 'react'
 import Home from './Home';
 import Contact from './Contact';
 import ProjectList from './ProjectList';
+import About from './About';
 
 function Wrapper() {
     return (
@@ -11,6 +12,9 @@ function Wrapper() {
         </div>
         <div >
           <ProjectList />
+        </div>
+        <div className='yellowBG'>
+          <About />
         </div>
         <div className='bgimg-3'>
           <Contact />

@@ -3,20 +3,16 @@ import React from "react";
 
 const Project = (props) => {
     return (
-      <div>
-        <div id='top'>
-          <div >
-            <div >
-              <div class='topBG '>
-                <h2>My Work</h2>
-              </div>
+      <div id='projects'>
+        <div className=' bgimg-2'>
+          <div id='top'>
+            <div>
+              <h1 className='card-header h1 pt-4 pb-3'>My Work</h1>
             </div>
           </div>
-        </div>
 
-        <div className='portfolioPad bgimg-2'>
           <div className='row'>
-            <div id=''>
+            <div className='portfolioPad'>
               <div className='CardPadPortfolio'>
                 <div className='card-group colBackground justify-content-center margin-auto'>
                   {props.details.map((project) => {

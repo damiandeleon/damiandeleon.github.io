@@ -3,20 +3,15 @@ import React from "react";
 
 const Contact = () => {
   return (
-    <div>
+    <div id='contact'>
       <div>
-        <div>
+        <div id='top'>
           <div>
-            <div>
-              <h2>My Work</h2>
-            </div>
+            <h1 className='card-header h1 pt-4 pb-3'>Contact Me</h1>
           </div>
         </div>
-      </div>
-
-      <div className='contactPad'>
         <div className='row'>
-          <div>
+          <div className='contactPad'>
             <div className='card CardPad'>
               <h1 className='card-header h1 pt-4 pb-3'>Contact Me Directly</h1>
               <div className='card-background'>
