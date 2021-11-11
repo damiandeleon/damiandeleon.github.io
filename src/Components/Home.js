@@ -4,11 +4,12 @@ import "../../src/index.css";
 function Home() {
   return (
     <>
-      <div id='home' className='row bgimg-1 container'>
+      <div id='home' className='row bgimg-1 container'
+      style={{height: "100vh"}}>
         <div className='col-2'></div>
         <div className='col-8'>
-          <div className='card introCard text-center bg-opacity-10'>
-            <div className='card-body'>
+          <div className='card introCard text-center'>
+            <div className='card-text'>
               <p>HELLO, I'M DAMIAN DELEON.</p>
               <p>FULL STACK WEB DEVELOPER </p>
             </div>

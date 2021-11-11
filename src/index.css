@@ -27,7 +27,7 @@
   max-height: 100%;
 }
 .bgimg-3 {
-  background-image: url("./Assets//Images/wp3589868.jpg");
+  background-image: url("./Assets//Images/cool-city.jpg");
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -59,13 +59,29 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
+.card-background {
+  opacity: 1 ;
+  color: lightgray;
+  font-size: 40px;
+  text-align: left;
+}
+
+.card-background2 {
+  font-family: "Roboto", sans-serif;
+  font-size: large;
+  opacity: 1 ;
+  color: lightgray;
+  text-align: left;
+}
 .introCard {
-  margin-top: 10vmax;
-  margin-bottom: 10vmax;
+  align-self: center;
+  margin-top: 19vmax;
+  margin-bottom: 19vmax;
   color: lightgray;
   font-size: 30px;
   font-family: "Roboto", sans-serif;
   background-color: black;
+  opacity: .8;
 }
 
 #logo {
@@ -139,10 +155,13 @@ body {
 }
 
 .yellowBG {
-  background: rgb(224, 233, 255);
-  background: radial-gradient(
-    circle,
-    rgba(224, 233, 255, 1) 40%,
-    rgba(40, 85, 181, 1) 100%
-  );
+  background-image: url("./Assets//Images/darkcity.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-width: 100%;
+  min-height: 100%;
+  opacity: .9;
+  background-color: black;
 }

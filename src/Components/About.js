@@ -1,13 +1,12 @@
 import React from 'react'
-import DamianResume from '../Assets/Damian_Deleon_Resume.pdf'
 
 function About() {
     return (
       <div id='about'>
-        <div>
+        <div style={{height: "100vh"}}>
           <div>
             <div id='top'>
-              <div>
+              <div className='card-background2'>
                 <div className='card-header h1 pt-2 pb-2'>
                   <h1 style={{ marginLeft: "50px" }}>About Me</h1>
                 </div>
@@ -32,32 +31,7 @@ function About() {
                     </div>
 
                     <hr />
-                    <div className='aboutMeSpacing'>
-                      <p>
-                        Linked In:{" "}
-                        <a
-                          href='https://www.linkedin.com/in/damian-de-leon-051b4b2b/'
-                          target='blank'
-                        >
-                          LinkedIn
-                        </a>
-                      </p>
-                      <p>
-                        GitHub Profile:{" "}
-                        <a
-                          href='https://github.com/damiandeleon'
-                          target='blank'
-                        >
-                          GitHub
-                        </a>
-                      </p>
-                      <p>
-                        Resume:{" "}
-                        <a href={DamianResume} target='blank'>
-                          Resume
-                        </a>
-                      </p>
-                    </div>
+                    
                   </article>
                 </div>
 
@@ -81,7 +55,7 @@ function About() {
                       aria-labelledby='headingOne'
                       data-bs-parent='#accordionExample'
                     >
-                      <div className='accordion-body card-background'>
+                      <div className='accordion-body'>
                         I started my career in business after graduating
                         college. For the years between 1997 to 2020, I worked in
                         the contact center industry. My professional career in
@@ -114,7 +88,7 @@ function About() {
                       aria-labelledby='headingTwo'
                       data-bs-parent='#accordionExample'
                     >
-                      <div className='accordion-body card-background table-responsive-sm'>
+                      <div className='accordion-body table-responsive-sm'>
                         <table className='table'>
                           <thead>
                             <tr>
@@ -183,7 +157,7 @@ function About() {
                       aria-labelledby='headingThree'
                       data-bs-parent='#accordionExample'
                     >
-                      <div className='accordion-body card-background'>
+                      <div className='accordion-body'>
                         <article>
                           <br></br>
                           <ul>
