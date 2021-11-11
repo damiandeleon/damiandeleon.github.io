@@ -4,12 +4,14 @@ import DamianResume from '../Assets/Damian_Deleon_Resume.pdf'
 function About() {
     return (
       <div id='about'>
-        <div className=''>
-          <div className='row'>
-            <div className='mb-5'>
+        <div>
+          <div>
+            <div id='top'>
               <div>
-                <h1 className='card-header h1 pt-4 pb-3'>About Me</h1>
-                <div style={{ margin: "10rem" }}>
+                <div className='card-header h1 pt-2 pb-2'>
+                  <h1 style={{ marginLeft: "50px" }}>About Me</h1>
+                </div>
+                <div className="card-body ms-5">
                   <article>
                     <div>
                       <p>
@@ -32,7 +34,7 @@ function About() {
                     <hr />
                     <div className='aboutMeSpacing'>
                       <p>
-                        Damian's Linked In Profile:{" "}
+                        Linked In:{" "}
                         <a
                           href='https://www.linkedin.com/in/damian-de-leon-051b4b2b/'
                           target='blank'
@@ -50,7 +52,7 @@ function About() {
                         </a>
                       </p>
                       <p>
-                        Download Damian's Resume:{" "}
+                        Resume:{" "}
                         <a href={DamianResume} target='blank'>
                           Resume
                         </a>
@@ -59,9 +61,9 @@ function About() {
                   </article>
                 </div>
 
-                <div className='accordion card-header' id='accordionExample'>
+                <div className='accordion card-header'>
                   <div className='accordion-item'>
-                    <h2 className='accordion-header' id='headingOne'>
+                    <h2 className='accordion-header ms-4' id='headingOne'>
                       <button
                         className='accordion-button collapsed'
                         type='button'
@@ -94,7 +96,7 @@ function About() {
                     </div>
                   </div>
                   <div className='accordion-item'>
-                    <h2 className='accordion-header' id='headingTwo'>
+                    <h2 className='accordion-header ms-4' id='headingTwo'>
                       <button
                         className='accordion-button collapsed'
                         type='button'
@@ -163,7 +165,7 @@ function About() {
                     </div>
                   </div>
                   <div className='accordion-item'>
-                    <h2 className='accordion-header' id='headingThree'>
+                    <h2 className='accordion-header ms-4' id='headingThree'>
                       <button
                         className='accordion-button collapsed'
                         type='button'

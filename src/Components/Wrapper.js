@@ -10,11 +10,11 @@ function Wrapper() {
         <div className='bgimg-1'>
           <Home />
         </div>
-        <div >
-          <ProjectList />
-        </div>
         <div className='yellowBG'>
           <About />
+        </div>
+        <div>
+          <ProjectList />
         </div>
         <div className='bgimg-3'>
           <Contact />

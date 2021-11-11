@@ -6,8 +6,8 @@ const Contact = () => {
     <div id='contact'>
       <div>
         <div id='top'>
-          <div>
-            <h1 className='card-header h1 pt-4 pb-3'>Contact Me</h1>
+          <div className='card-header h1 pt-2 pb-2'>
+            <h1 style={{ marginLeft: "50px" }}>Contact Me</h1>
           </div>
         </div>
         <div className='row'>

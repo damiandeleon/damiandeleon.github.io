@@ -52,6 +52,13 @@ body {
   z-index: 2000;
 }
 
+.card-font {
+  font-size: x-large;
+  color: "white";
+  font-family:Arial, Helvetica, sans-serif;
+  font-family: "Roboto", sans-serif;
+}
+
 .introCard {
   margin-top: 10vmax;
   margin-bottom: 10vmax;
@@ -61,10 +68,16 @@ body {
   background-color: black;
 }
 
+#logo {
+  height: auto;
+  width: auto;
+  overflow: hidden; 
+}
+
 .portfolioPad {
   position: relative;
-  padding: 10vmax;
   text-align: center;
+  
 }
 
 .contactPad {
@@ -76,14 +89,12 @@ body {
   overflow: hidden;
 }
 
-
-
 #top h2 {
   font-family: "Roboto", sans-serif;
   color: lightgray;
   font-size: 1.6rem;
   position: relative;
-  margin-right : 0rem;
+  margin-right: 0rem;
   margin-left: 0%;
   padding: 0.8rem 0;
 }
@@ -95,7 +106,7 @@ body {
   left: 0rem;
   position: absolute;
   right: 0;
-  transform-origin:100% 0;
+  transform-origin: 100% 0;
   transform: skew(-40deg);
   top: 0;
   z-index: -1;
@@ -104,8 +115,6 @@ body {
 #top-2 {
   overflow: hidden;
 }
-
-
 
 #top-2 h2 {
   font-family: "Roboto", sans-serif;
@@ -127,4 +136,13 @@ body {
   transform: skew(-40deg);
   top: 0;
   z-index: -1;
+}
+
+.yellowBG {
+  background: rgb(224, 233, 255);
+  background: radial-gradient(
+    circle,
+    rgba(224, 233, 255, 1) 40%,
+    rgba(40, 85, 181, 1) 100%
+  );
 }
