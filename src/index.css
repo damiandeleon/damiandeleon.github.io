@@ -62,7 +62,7 @@ body {
 .card-background {
   opacity: 1 ;
   color: lightgray;
-  font-size: 40px;
+  font-size: 15px;
   text-align: left;
 }
 
@@ -75,8 +75,8 @@ body {
 }
 .introCard {
   align-self: center;
-  margin-top: 19vmax;
-  margin-bottom: 19vmax;
+  margin-top: 2vmax;
+  margin-bottom: 2vmax;
   color: lightgray;
   font-size: 30px;
   font-family: "Roboto", sans-serif;
@@ -165,3 +165,5 @@ body {
   opacity: .9;
   background-color: black;
 }
+
+

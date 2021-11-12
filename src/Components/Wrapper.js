@@ -1,26 +1,19 @@
-import React from 'react'
-import Home from './Home';
-import Contact from './Contact';
-import ProjectList from './ProjectList';
-import About from './About';
+import React from "react";
+import Home from "./Home";
+import Contact from "./Contact";
+import ProjectList from "./ProjectList";
+import About from "./About";
+import Skills from "./Skills";
 
 function Wrapper() {
-    return (
-      <>
-        <div className='bgimg-1'>
-          <Home />
-        </div>
-        <div className='yellowBG'>
-          <About />
-        </div>
-        <div>
-          <ProjectList />
-        </div>
-        <div className='bgimg-3'>
-          <Contact />
-        </div>
-      </>
-    );
+  return (
+    <>
+      <Home />
+      <Skills />
+      <ProjectList />
+      <Contact />
+    </>
+  );
 }
 
-export default Wrapper
+export default Wrapper;

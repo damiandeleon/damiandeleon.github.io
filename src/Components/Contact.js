@@ -3,14 +3,15 @@ import DamianResume from "../Assets/Damian_Deleon_Resume.pdf";
 
 const Contact = () => {
   return (
-    <div id='contact'>
+    <div id='contact' className='yellowBG'>
       <div style={{ height: "100vh" }}>
         <div id='top'>
           <div className='card-header h1 pt-2 pb-2'>
             <h1 style={{ marginLeft: "50px", color: "white" }}>Contact Me</h1>
           </div>
         </div>
-        <div className='row'>
+        <div className='row'
+        >
           <div className='contactPad'>
             <div className='card-background'>
               <div>

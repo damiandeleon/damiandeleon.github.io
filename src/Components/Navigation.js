@@ -1,4 +1,5 @@
 import React from "react";
+import { SocialIcon } from "react-social-icons";
 
 function Navigation() {
   return (
@@ -14,7 +15,7 @@ function Navigation() {
             >
               <i class='fas fa-home fa-2x'></i>
             </a>
-            <a class='nav-link' title='About Me' href='#about'>
+            <a class='nav-link' title='Technical Skills' href='#about'>
               <i class='fas fa-user-astronaut fa-2x'></i>
             </a>
             <a class='nav-link' title='My Work' href='#projects'>
