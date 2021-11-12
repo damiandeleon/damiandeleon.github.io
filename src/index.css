@@ -166,4 +166,16 @@ body {
   background-color: black;
 }
 
+.neonCity {
+  background-image: url("./Assets//Images/neon-city.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-width: 100%;
+  min-height: 100%;
+  opacity: .9;
+  background-color: black;
+}
+
 

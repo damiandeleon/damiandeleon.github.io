@@ -4,7 +4,7 @@ const Skills = () => {
   return (
     <main
       id='about'
-      className='yellowBG'
+      className='neonCity'
       style={{ color: "white" , height: "100vh"}}
     >
       <div className='card-header h1 pt-2 pb-2'>
