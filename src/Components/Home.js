@@ -6,11 +6,11 @@ function Home() {
     <>
       <div
         id='home'
-        className='row yellowBG container'
+        className='row yellowBG '
         style={{ height: "100vh" }}
       >
         <div>
-          <div className=''>
+          <div >
             <div className='introCard text-center'>
               <p>HELLO, I'M DAMIAN DELEON.</p>
               <p>FULL STACK WEB DEVELOPER </p>
@@ -20,7 +20,13 @@ function Home() {
             </div>
             <div className='card-body ms-5'>
               <article>
-                <div style={{ color: "white" }}>
+                <div
+                  style={{
+                    textAlign: "center",
+                    color: "white",
+                    backgroundColor: "rgba(66, 121, 223, 0.75)",
+                  }}
+                >
                   <p>
                     Full Stack Web Developer with a Bachelors in Business and
                     over 20 years of experience working for companies like IBM,

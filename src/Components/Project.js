@@ -3,10 +3,10 @@ import React from "react";
 const Project = (props) => {
   return (
     <div id='projects'>
-      <div className=' bgimg-2'>
+      <div className='neonCity'>
         <div id='top'>
           <div className='card-header h1 pt-2 pb-2'>
-            <h1 style={{ marginLeft: "50px" }}>My Work</h1>
+            <h1 style={{ marginLeft: "50px", color: "white" }}>My Work</h1>
           </div>
         </div>
 
@@ -18,28 +18,22 @@ const Project = (props) => {
                   return (
                     <div key={project.id}>
                       <div
-                        className='card'
+                        className='card hover'
                         style={{
-                          border: "lightblue 5px solid",
+                          perspective: "272px",
+                          border: "cyan 5px solid",
                           borderRadius: "10px",
                           margin: "10px",
-                          padding: "40px",
+                          transition: "all .25s ease-in-out",
+                          boxShadow: "0 1.5rem 4rem rgb(0 0 0 / 40%)",
                           color: "white",
                           fontWeight: "bold",
                           fontFamily: "Roboto",
                           background:
                             "linear-gradient(0deg, rgba(52,52,52,1) 0%, rgba(102,102,102,1) 58%, rgba(171,171,171,1) 100%)",
-                          maxWidth: "500px",
+                          maxWidth: "450px",
                         }}
                       >
-                        <p className='card-font'>{project.name}</p>
-                        <hr />
-                        <div>
-                          <p style={{ fontWeight: "bolder" }}>Tech Stack</p>
-                          <p style={{ fontSize: "12px" }}>
-                            {project.techStack}
-                          </p>
-                        </div>
                         <div id={"logo"}>
                           <img
                             src={project.img}
@@ -47,19 +41,34 @@ const Project = (props) => {
                             alt='project screenshot'
                           />
                         </div>
-                        <div style={{ marginTop: "20px" }}>
+                        <p className='card-font'>{project.name}</p>
+                        <div>
+                          <p
+                            style={{
+                              fontSize: "12px",
+                              paddingLeft: "40px",
+                              paddingRight: "40px",
+                            }}
+                          >
+                            {project.techStack}
+                          </p>
+                        </div>
+                        <div
+                          style={{
+                            marginTop: "20px",
+                            paddingLeft: "40px",
+                            paddingRight: "40px",
+                          }}
+                        >
                           <p>{project.description}</p>
                         </div>
                         <div>
-                          <div className='card-body'>
+                          <div>
                             <a href={project.deployURL} target='blank'>
-                              {" "}
-                              {project.deployTitle}
-                            </a>{" "}
-                            |
+                              <p className='card-btn2 fa fa-2x'>DEMO</p>
+                            </a>
                             <a href={project.gitHubURL} target='blank'>
-                              {" "}
-                              {project.gitHubTitle}
+                              <i className='fa fa-github fa-2x card-btn' />
                             </a>
                           </div>
                         </div>

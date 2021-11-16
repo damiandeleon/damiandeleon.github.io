@@ -5,167 +5,190 @@ const Skills = () => {
     <main
       id='about'
       className='neonCity'
-      style={{ color: "white" , height: "100vh"}}
+      style={{ color: "white", height: "100vh" }}
     >
       <div className='card-header h1 pt-2 pb-2'>
         <h1 style={{ marginLeft: "50px" }}>Technical Skills</h1>
       </div>
       <section className='bg-gradient-to-t from-gray-800 to-gray-500 rounded-lg shadow-2xl flex flex-col lg:items-center p-20 justify-center container mx-auto'>
         <div className='grid grid-flow-row xl:grid-flow-col grid-cols-1 gap-20'>
-          <div style={{ textAlign: "center", color: "white" }}>
+          <div
+            style={{
+              textAlign: "center",
+              color: "white",
+              backgroundColor: "rgba(66, 121, 223, 0.75)",
+              borderRadius: "75px",
+            }}
+          >
             <h2>Front End</h2>
-            <section className=''>
- 
-              <div className='d-flex justify-content-around'>
-                <div>
+            <section
+              className='d-flex justify-content-around'
+              style={{ maxHeight: "110px" }}
+            >
+              <div>
                 {/* JavaScript */}
                 <a
                   href='https://www.javascript.com/'
-                  target='_blank'
+                  target='Javascript'
                   rel='noreferrer'
                 >
-                  <i
-                    className='flex mt-5 fab fa-js-square'
-                    style={{ fontSize: "50px", color: "white" }}
-                  ></i>
-                </a>
+                  <div>
+                    <i className=' mt-2 fab fa-lg fa-js-square grow hover'></i>
+                    <p className='iconLabel'>Javascript</p>
                   </div>
-              
-                {/* CSS3 */}
+                </a>
+              </div>
 
+              {/* CSS3 */}
+              <div>
                 <a
                   href='https://www.w3.org/TR/CSS/#css'
                   target='_blank'
                   rel='noreferrer'
                 >
-                  <i
-                    className='fab mt-4 fa-css3-alt '
-                    style={{ fontSize: "50px", color: "white" }}
-                  ></i>
+                  <div>
+                    <i className='fab mt-2 fa-lg fa-css3-alt grow hover'></i>
+                    <p className='iconLabel'>CSS3</p>
+                  </div>
                 </a>
+              </div>
 
-                {/* React */}
-
+              {/* React */}
+              <div>
                 <a href='https://reactjs.org/' target='_blank' rel='noreferrer'>
-                  <i
-                    class='fab fa-react mt-2'
-                    style={{ fontSize: "50px", color: "white" }}
-                  ></i>
-
+                  <div>
+                    <i class='fab fa-react fa-lg mt-2 grow hover'></i>
+                    <p className='iconLabel'>React</p>
+                  </div>
                 </a>
+              </div>
 
-                {/* HTML */}
-
+              {/* HTML */}
+              <div>
                 <a
                   href='https://www.w3.org/TR/html52/'
                   target='_blank'
                   rel='noreferrer'
                 >
-                  <i
-                    className='fab fa-html5 mt-4'
-                    style={{ fontSize: "50px", color: "white" }}
-                  ></i>
+                  <div>
+                    <i className='fab fa-html5 fa-lg mt-2 grow hover'></i>
+                    <p className='iconLabel'>HTML5</p>
+                  </div>
                 </a>
+              </div>
 
-                {/* Bootstrap */}
-
+              <div>
                 <a
-                  className='flex p-2 flex-col'
                   href='https://getbootstrap.com/'
                   target='_blank'
                   rel='noreferrer'
                 >
-                  <i
-                    class='fab fa-bootstrap mt-5'
-                    style={{ fontSize: "50px", color: "white" }}
-                  ></i>
+                  <div>
+                    <i className='fab fa-bootstrap fa-lg mt-2 grow hover'></i>
+                    <p className='iconLabel'>Bootstrap</p>
+                  </div>
                 </a>
               </div>
             </section>
           </div>
           <br />
           <br />
-          <div style={{ textAlign: "center", color: "white" }}>
+          <div
+            style={{
+              textAlign: "center",
+              color: "white",
+              backgroundColor: "rgba(66, 121, 223, 0.75)",
+              borderRadius: "75px",
+            }}
+          >
             <h2>Back End</h2>
             <section>
               <div className='d-flex justify-content-around'>
                 {/* MySQL */}
-                <a
-                  className='flex p-2 flex-col .img-fluid. max-width: 50% height: auto '
-                  href='https://www.mysql.com/'
-                  target='_blank'
-                  rel='noreferrer'
-                >
-                  <i
-                    class='fas fa-database mt-5'
-                    style={{ fontSize: "50px", color: "white" }}
-                  ></i>
-                </a>
+                <div>
+                  <a
+                    href='https://www.mysql.com/'
+                    target='_blank'
+                    rel='noreferrer'
+                  >
+                    <div>
+                      <i className='fas fa-database fa-lg mt-2 grow hover'></i>
+                      <p className='iconLabel'>SQL</p>
+                    </div>
+                  </a>
+                </div>
 
                 {/* Sequelize */}
-                <a
-                  className='flex p-2 flex-col'
-                  href='http://sequelize.org/'
-                  target='_blank'
-                  rel='noreferrer'
-                >
-                  <i
-                    class='fas fa-table mt-4'
-                    style={{ fontSize: "50px", color: "white" }}
-                  ></i>{" "}
-                </a>
+                <div>
+                  <a
+                    href='http://sequelize.org/'
+                    target='_blank'
+                    rel='noreferrer'
+                  >
+                    <div>
+                      <i class='fas fa-table fa-lg  mt-2 grow hover'></i>
+                      <p className='iconLabel'>Sequelize</p>
+                    </div>
+                  </a>
+                </div>
 
                 {/* Java */}
-                <a
-                  className='flex p-2 flex-col'
-                  href='https://www.java.com/'
-                  target='_blank'
-                  rel='noreferrer'
-                >
-                  <i
-                    class='fab fa-java mt-2'
-                    style={{ fontSize: "50px", color: "white" }}
-                  ></i>{" "}
-                </a>
+                <div>
+                  <a
+                    href='https://www.java.com/'
+                    target='_blank'
+                    rel='noreferrer'
+                  >
+                    <div>
+                      <i className='fab fa-java fa-lg mt-2 grow hover'></i>
+                      <p className='iconLabel'>Java</p>
+                    </div>
+                  </a>
+                </div>
 
                 {/* Node.js */}
-                <a
-                  className='flex p-2 flex-col'
-                  href='https://nodejs.org/en/'
-                  target='_blank'
-                  rel='noreferrer'
-                >
-                  <i
-                    className='fab fa-node mt-2'
-                    style={{ fontSize: "50px", color: "white" }}
-                  ></i>{" "}
-                </a>
+                <div>
+                  <a
+                    href='https://nodejs.org/en/'
+                    target='_blank'
+                    rel='noreferrer'
+                  >
+                    <div>
+                      <i className='fab fa-node fa-lg mt-2 grow hover'></i>
+                      <p className='iconLabel'>Node</p>
+                    </div>
+                  </a>
+                </div>
 
                 {/* MongoDB */}
-                <a
-                  className='flex p-2 flex-col'
-                  href='https://www.mongodb.com/'
-                  target='_blank'
-                  rel='noreferrer'
-                >
-                  <i
-                    class='fas fa-database mt-4'
-                    style={{ fontSize: "50px", color: "white" }}
-                  ></i>{" "}
-                </a>
+                <div>
+                  <a
+                    href='https://www.mongodb.com/'
+                    target='_blank'
+                    rel='noreferrer'
+                  >
+                    <div>
+                      <i className='fas fa-database fa-lg mt-2 grow hover'></i>
+                      <p className='iconLabel'>MongoDB</p>
+                    </div>
+                  </a>
+                </div>
 
-                {/* Mongoose */}
-                <a
-                  className='flex p-2 flex-col'
-                  href='https://mongoosejs.com/'
-                  target='_blank'
-                  rel='noreferrer'
-                >
-                  <i
-                    class='fas fa-otter mt-5'
-                    style={{ fontSize: "50px", color: "white" }}
-                  ></i>{" "}
-                </a>
+                {/* Mongoose
+                <div>
+                  <a
+                    className='flex p-0 flex-col'
+                    href='https://mongoosejs.com/'
+                    target='_blank'
+                    rel='noreferrer'
+                  >
+                    <i
+                      class='fas fa-otter mt-2'
+
+                    ></i>{" "}
+                  </a>
+                  <p className='iconLabel'>Mongoose</p>
+                </div> */}
               </div>
               <div></div>
             </section>

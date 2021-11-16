@@ -53,14 +53,14 @@ body {
 }
 
 .card-font {
+  padding-top: 30px;
   font-size: x-large;
   color: "white";
-  font-family:Arial, Helvetica, sans-serif;
   font-family: "Roboto", sans-serif;
 }
 
 .card-background {
-  opacity: 1 ;
+  opacity: 1;
   color: lightgray;
   font-size: 15px;
   text-align: left;
@@ -69,31 +69,81 @@ body {
 .card-background2 {
   font-family: "Roboto", sans-serif;
   font-size: large;
-  opacity: 1 ;
+  opacity: 1;
   color: lightgray;
   text-align: left;
 }
+.card-btn {
+  padding: 0.7 em 2 em;
+  background: radial-gradient(hsl(219, 86%, 46%), rgba(97, 9, 168, 0.3));
+  color: #eaf2e3;
+  text-decoration: none;
+  text-transform: uppercase;
+  margin: 1 em auto 0;
+  border-radius: 25 px;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
+.card-btn2 {
+  background: radial-gradient(hsl(219, 86%, 46%), rgba(97, 9, 168, 0.3));
+  color: #eaf2e3;
+  font-size: 30px;
+  text-decoration: none;
+  margin: 1 em auto 0;
+  border-radius: 25 px;
+  padding-top: 0.1rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  padding-bottom: 0.05rem;
+}
+
+.card:hover {
+  transform: rotateX(7deg) rotateY(0deg);
+  transform-style: preserve-3d;
+}
+
+svg {
+  display: inline-flex;
+  color: white;
+}
+.grow {
+  display: inline flex;
+  color: white;
+  transition: all 0.2s ease-in-out;
+}
+.grow:hover {
+  transform: scale(2);
+}
+
+.iconLabel {
+  font-family: "Roboto", sans-serif;
+  color: white;
+  position: relative;
+  margin-right: 0rem;
+  margin-left: 0%;
+  padding: 0.2rem 0;
+}
+
 .introCard {
-  align-self: center;
-  margin-top: 2vmax;
-  margin-bottom: 2vmax;
+  margin: 2vmax 10vmax 2vmax 10vmax;
   color: lightgray;
   font-size: 30px;
   font-family: "Roboto", sans-serif;
-  background-color: black;
-  opacity: .8;
+  background-color: rgb(80, 79, 79, 0.5);
+  opacity: 0.8;
+  border-radius: 25px;
 }
 
 #logo {
   height: auto;
   width: auto;
-  overflow: hidden; 
+  overflow: hidden;
 }
 
 .portfolioPad {
   position: relative;
   text-align: center;
-  
 }
 
 .contactPad {
@@ -162,7 +212,7 @@ body {
   background-size: cover;
   min-width: 100%;
   min-height: 100%;
-  opacity: .9;
+  opacity: 0.9;
   background-color: black;
 }
 
@@ -174,8 +224,6 @@ body {
   background-size: cover;
   min-width: 100%;
   min-height: 100%;
-  opacity: .9;
+  opacity: 0.9;
   background-color: black;
 }
-
-
