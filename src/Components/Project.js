@@ -3,10 +3,11 @@ import React from "react";
 const Project = (props) => {
   return (
     <div id='projects'>
-      <div className='neonCity'>
+      <div className='bgimg-1'>
         <div id='top'>
-          <div className='card-header h1 pt-2 pb-2'>
-            <h1 style={{ marginLeft: "50px", color: "white" }}>My Work</h1>
+          <div className='card-header  pt-2 pb-2' style={{ color: "white" }}>
+            <h1>My Work</h1>
+            <p>Here are some of my latest projects</p>
           </div>
         </div>
 
@@ -21,17 +22,17 @@ const Project = (props) => {
                         className='card hover'
                         style={{
                           perspective: "272px",
-                          border: "cyan 5px solid",
+                          // border: "CornflowerBlue 5px solid",
                           borderRadius: "10px",
-                          margin: "10px",
+                          margin: "50px",
                           transition: "all .25s ease-in-out",
-                          boxShadow: "0 1.5rem 4rem rgb(0 0 0 / 40%)",
+                          boxShadow: "0 1.5rem 3rem rgb(0 0 0 / 100%)",
                           color: "white",
                           fontWeight: "bold",
                           fontFamily: "Roboto",
                           background:
                             "linear-gradient(0deg, rgba(52,52,52,1) 0%, rgba(102,102,102,1) 58%, rgba(171,171,171,1) 100%)",
-                          maxWidth: "450px",
+                          maxWidth: "400px",
                         }}
                       >
                         <div id={"logo"}>
@@ -45,7 +46,7 @@ const Project = (props) => {
                         <div>
                           <p
                             style={{
-                              fontSize: "12px",
+                              fontSize: "11px",
                               paddingLeft: "40px",
                               paddingRight: "40px",
                             }}
@@ -55,9 +56,9 @@ const Project = (props) => {
                         </div>
                         <div
                           style={{
-                            marginTop: "20px",
                             paddingLeft: "40px",
                             paddingRight: "40px",
+                            fontSize: "12px",
                           }}
                         >
                           <p>{project.description}</p>

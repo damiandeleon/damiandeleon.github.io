@@ -1,39 +1,47 @@
 import React from "react";
+import profilePic from "../Assets/Images/profilePicCircle.jpeg";
 
 function About() {
   return (
-    <div >
-      <div style={{ height: "100vh" }}>
+    <div>
+      <div className='card-background3' style={{ height: "100vh" }}>
         <div>
           <div id='top'>
-            <div className='card-background2'>
-              <div className='card-header h1 pt-2 pb-2'>
-                <h1 style={{ marginLeft: "50px" }}>About Me</h1>
-              </div>
-              <div className='card-body ms-5'>
+            <div>
+              <div
+                id='about'
+                className='card-body ms-5 me-5'
+                style={{ textAlign: "center" }}
+              >
+                <img
+                  src={profilePic}
+                  className='profilePic'
+                  alt='project screenshot'
+                  width='175px'
+                  style={{ borderRadius: "100px" }}
+                />
                 <article>
-                  <div>
+                  <div className='profiledescription'>
+                    <h2>Summary</h2>
                     <p>
                       Full Stack Web Developer with a Bachelors in Business and
-                      over 20 years of experience working for companies like
-                      IBM, Facebook, Apple, and General Motors. Earned a
-                      certificate from the Coding Boot Camp at the University of
-                      Texas in Austin. Skilled in the fundamentals of HTML, CSS,
-                      Bootstrap, and React.js and excited to learn more and
-                      expand my knowledge base. Efficient worker and a strategic
-                      thinker with the ability to pivot upon changing
-                      conditions. Goal is to build websites and apps that
-                      provide a practical service to people and businesses.
-                      Excited to join a team that is fast-paced and
-                      quality-driven and help them make a positive impact on the
-                      world.
+                      over 20 years of experience in the Buseiness Services Industry working for companies like
+                      IBM, Facebook, Apple, and General Motors.
                     </p>
                   </div>
                   <hr />
                 </article>
+                <article>
+                  <div className='profiledescription'>
+                    <h2>Why Web Development?</h2>
+                    <p>
+                      I have a lifelong passion for figuring out how things work, and fixing things.  Be it from learning about physiology and fitness, to tearing down and building my first comptuer, and fixing cars with my father. My 23 years in business was built on taking what clients wanted for their businesses and making it happen. I used various skills such as project managmeent, process mangement, technical writing, operations management, and quality management to be successful.  When I discovered coding, I found that those skills tranfsered perfectly into the DevOps and the Agile development concepts. I found a passion in coding and it's ability to impact society and businesses.  I never stop coding and I'm excited to tackle what's next.
+                    </p>
+                  </div>
+                </article>
               </div>
 
-              <div className='accordion card-header'>
+              {/* <div className='accordion card-header'>
                 <div className='accordion-item'>
                   <h2 className='accordion-header ms-4' id='headingOne'>
                     <button
@@ -173,7 +181,7 @@ function About() {
                     </div>
                   </div>
                 </div>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>

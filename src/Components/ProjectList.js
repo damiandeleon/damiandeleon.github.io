@@ -23,20 +23,20 @@ const ProjectList = () => {
         deployURL: "https://obscure-beyond-60909.herokuapp.com/",
         deployTitle: "Deployed Project",
         description:
-          "Mind Managed is a mental health management app.  As a user, the patient will document medications taken, daily moods, and journal anything that they believe is impacting their mood for that day.  The user signs up, signs in, and begins making an entry.  The app uses charts to keep a record of the user’s data as a way to identify mood swing patterns.  This tool can be shared with the mental health provider to aid in counseling and treatment.",
+          "Mental Health / mood monitoring app.  Using Axios to send HTTP requests to REST endpoints and perform CRUD operations, so user can journal and track medications.  The app also uses the openFDA API to search for medications. ",
       },
       {
         id: 2,
         name: "Frienemies App",
         img: projectFR,
         techStack:
-          "HTML, CSS3, Bootstrap, HTML, Handlebars, Javascript, NPM Packages: Clodinary, MySQL2, sequelize, bcrypt",
+          "HTML, CSS3, Bootstrap, HTML, Handlebars, Javascript, NPM Packages: Cloudinary, MySQL2, sequelize, bcrypt",
         gitHubURL: "https://github.com/damiandeleon/project-2-group-3",
         gitHubTitle: "GitHub Repository",
         deployURL: "https://damp-thicket-88352.herokuapp.com/login",
         deployTitle: "Deployed Project",
         description:
-          "In a post-COVID world, many people think it’s time for something new!  “Frenemies”, a new take on Social Media interactions!  Connect with new people and make a frienemy out of them!   How does this work?  The user signs up, enters their interests, and the app will present other users who have different interests or “clashes”.  This exposes the user to a world of new ideas, activities, and people.  Once you connect with them, the user can begin their exploration into new horizons and memories.",
+          "Frenemies connects people with nothing in common, giving them a chance to learn new things from each other. NPM packages used: Cloudinary (for uploading images), MySQL for saving user info, friends list, and user interests",
       },
       {
         id: 3,
@@ -56,39 +56,37 @@ const ProjectList = () => {
         name: "Day Planner Application",
         img: projectDP,
         techStack:
-          "HTML, CSS, HTML, CSS, Javascript, MongoDB, Express, React, Node.js, openFDA API, Recharts, Auth0",
+          "HTML, CSS, Javascript, Google Fonts, Awesome Fonts, JQuery, MomentJS API, local storage",
         gitHubURL: "https://github.com/damiandeleon/work-day-scheduler",
         gitHubTitle: "GitHub Repository",
         deployURL: "https://damiandeleon.github.io/work-day-scheduler/",
         deployTitle: "Deployed Project",
         description:
-          "Mind Managed tracks a user's daily mood, prescription use, and journal entry so that the user can keep a detailed record to show their doctor.  The user signs up, signs in, and begins by making a journal entry, and tracking medications.  The app uses charts to keep a record of the user's moods as a way to identify mood swing patters.  This tool can be shared with the mental health provider to aid in counseling and treatment.",
+          "This app is used to plan daily activities.  100% front end using local storage to save information until it is manually deleted.  Using Javascript, the app wil shade events based on it's chronological relationship to the current time.",
       },
       {
         id: 5,
         name: "Password Generator Application",
         img: projectPG,
-        techStack:
-          "HTML, CSS, HTML, CSS, Javascript, MongoDB, Express, React, Node.js, openFDA API, Recharts, Auth0",
+        techStack: "HTML, CSS, Javascript",
         gitHubURL: "https://github.com/damiandeleon/Password-Generator",
         gitHubTitle: "GitHub Repository",
         deployURL: "https://damiandeleon.github.io/Password-Generator/",
         deployTitle: "Deployed Project",
         description:
-          "Mind Managed tracks a user's daily mood, prescription use, and journal entry so that the user can keep a detailed record to show their doctor.  The user signs up, signs in, and begins by making a journal entry, and tracking medications.  The app uses charts to keep a record of the user's moods as a way to identify mood swing patters.  This tool can be shared with the mental health provider to aid in counseling and treatment.",
+          "One of my first assignments in coding bootcamp to practice Javascript.  The password generator creates a random password for a user based on the preferences taken from the user.",
       },
       {
         id: 6,
         name: "Weather Dashboard",
         img: projectWD,
-        techStack:
-          "HTML, CSS, HTML, CSS, Javascript, MongoDB, Express, React, Node.js, openFDA API, Recharts, Auth0",
+        techStack: "HTML, CSS, Javascript, local storage, Open Weather API",
         gitHubURL: "https://github.com/damiandeleon/Weather-Dashboard/",
         gitHubTitle: "GitHub Repository",
         deployURL: "https://damiandeleon.github.io/Weather-Dashboard/",
         deployTitle: "Deployed Project",
         description:
-          "Mind Managed tracks a user's daily mood, prescription use, and journal entry so that the user can keep a detailed record to show their doctor.  The user signs up, signs in, and begins by making a journal entry, and tracking medications.  The app uses charts to keep a record of the user's moods as a way to identify mood swing patters.  This tool can be shared with the mental health provider to aid in counseling and treatment.",
+          "This tool is used to pull the local forecast plus a five-day forecast by city for a user. It derives the data from the Open Weather API site. All searches are saved to the web browser's local storage, and if not cleared, then can be accessed again when the page is revisited.",
       },
     ];
     return (
