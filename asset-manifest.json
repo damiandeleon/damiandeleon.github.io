@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/static/css/main.664c6ee6.chunk.css",
-    "main.js": "/static/js/main.6e659e30.chunk.js",
-    "main.js.map": "/static/js/main.6e659e30.chunk.js.map",
+    "main.css": "/static/css/main.c85a7a67.chunk.css",
+    "main.js": "/static/js/main.daad0644.chunk.js",
+    "main.js.map": "/static/js/main.daad0644.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.a9f80a17.js",
     "runtime-main.js.map": "/static/js/runtime-main.a9f80a17.js.map",
     "static/js/2.56bc4b8b.chunk.js": "/static/js/2.56bc4b8b.chunk.js",
     "static/js/2.56bc4b8b.chunk.js.map": "/static/js/2.56bc4b8b.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.664c6ee6.chunk.css.map": "/static/css/main.664c6ee6.chunk.css.map",
+    "static/css/main.c85a7a67.chunk.css.map": "/static/css/main.c85a7a67.chunk.css.map",
     "static/js/2.56bc4b8b.chunk.js.LICENSE.txt": "/static/js/2.56bc4b8b.chunk.js.LICENSE.txt",
     "static/media/Damian_Deleon_Resume.c89fc9dc.pdf": "/static/media/Damian_Deleon_Resume.c89fc9dc.pdf",
     "static/media/index.css": "/static/media/neoncar.c9b59b9f.jpeg",
@@ -24,7 +24,7 @@
   "entrypoints": [
     "static/js/runtime-main.a9f80a17.js",
     "static/js/2.56bc4b8b.chunk.js",
-    "static/css/main.664c6ee6.chunk.css",
-    "static/js/main.6e659e30.chunk.js"
+    "static/css/main.c85a7a67.chunk.css",
+    "static/js/main.daad0644.chunk.js"
   ]
 }
