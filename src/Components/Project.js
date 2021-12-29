@@ -66,7 +66,7 @@ const Project = (props) => {
                         <div>
                           <div>
                             <a href={project.deployURL} target='blank'>
-                              <p className='card-btn2 fa fa-2x'>DEMO</p>
+                              <p className='card-btn2 fa fa-2x'>Demo</p>
                             </a>
                             <a href={project.gitHubURL} target='blank'>
                               <i className='fa fa-github fa-2x card-btn' />

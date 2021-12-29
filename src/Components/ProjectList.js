@@ -17,7 +17,7 @@ const ProjectList = () => {
         name: "Mind Managed Application",
         img: projectMM,
         techStack:
-          "HTML, CSS3, Bootstrsap, HTML, Javascript, MongoDB, Express, Axios, ReactJS, Node.js, openFDA API, Recharts, Auth0",
+          "HTML, CSS3, Bootstrap, HTML, Javascript, MongoDB, Express, Axios, ReactJS, Node.js, openFDA API, Recharts, Auth0",
         gitHubURL: "https://github.com/damiandeleon/project-3-group-8",
         gitHubTitle: "GitHub Repository",
         deployURL: "https://obscure-beyond-60909.herokuapp.com/",

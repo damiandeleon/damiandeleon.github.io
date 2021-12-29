@@ -50,7 +50,7 @@ const Skills = () => {
                   style={{ textDecoration: "none" }}
                 >
                   <div>
-                    <i class='fab fa-react fa-lg mt-2 grow hover'></i>
+                    <i className='fab fa-react fa-lg mt-2 grow hover'></i>
                     <p className='iconLabel'>React</p>
                   </div>
                 </a>
@@ -116,7 +116,7 @@ const Skills = () => {
                     style={{ textDecoration: "none" }}
                   >
                     <div>
-                      <i class='fas fa-table fa-lg  mt-2 grow hover'></i>
+                      <i className='fas fa-table fa-lg  mt-2 grow hover'></i>
                       <p className='iconLabel'>Sequelize</p>
                     </div>
                   </a>
@@ -177,7 +177,7 @@ const Skills = () => {
                     style={{textDecoration: 'none'}}
                   >
                     <i
-                      class='fas fa-otter mt-2'
+                      className='fas fa-otter mt-2'
 
                     ></i>{" "}
                   </a>

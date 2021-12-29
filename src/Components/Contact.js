@@ -3,8 +3,8 @@ import React from "react";
 
 const Contact = () => {
   return (
-    <div id='contact' className='yellowBG'>
-      <div style={{ height: "100vh" }}>
+    <div id='contact' className='yellowBG' style={{ height: "100vh" }}>
+      <div>
         <div id='top'>
           <div className='card-header h1 pt-2 pb-2'>
             <h1 style={{ color: "white" }}>Contact Me</h1>
@@ -27,7 +27,7 @@ const Contact = () => {
                     <a href='tel:5125697525'>512-569-7525</a>
                   </p>
                   <p>
-                    <i class='fas fa-map-marker-alt me-3'></i>
+                    <i className='fas fa-map-marker-alt me-3'></i>
                     Austin, TX
                   </p>
                 </div>
