@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.c85a7a67.chunk.css",
-    "main.js": "/static/js/main.aaf761ec.chunk.js",
-    "main.js.map": "/static/js/main.aaf761ec.chunk.js.map",
+    "main.css": "/static/css/main.1e76872b.chunk.css",
+    "main.js": "/static/js/main.4564e1e7.chunk.js",
+    "main.js.map": "/static/js/main.4564e1e7.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.a9f80a17.js",
     "runtime-main.js.map": "/static/js/runtime-main.a9f80a17.js.map",
     "static/js/2.56bc4b8b.chunk.js": "/static/js/2.56bc4b8b.chunk.js",
     "static/js/2.56bc4b8b.chunk.js.map": "/static/js/2.56bc4b8b.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.c85a7a67.chunk.css.map": "/static/css/main.c85a7a67.chunk.css.map",
+    "static/css/main.1e76872b.chunk.css.map": "/static/css/main.1e76872b.chunk.css.map",
     "static/js/2.56bc4b8b.chunk.js.LICENSE.txt": "/static/js/2.56bc4b8b.chunk.js.LICENSE.txt",
-    "static/media/Damian_Deleon_Resume.20cf2e8b.pdf": "/static/media/Damian_Deleon_Resume.20cf2e8b.pdf",
+    "static/media/Damian_Deleon_Resume.91fd60b5.pdf": "/static/media/Damian_Deleon_Resume.91fd60b5.pdf",
     "static/media/index.css": "/static/media/neoncar.c9b59b9f.jpeg",
     "static/media/dayPlannerApp.e4672399.png": "/static/media/dayPlannerApp.e4672399.png",
     "static/media/frienemies.0749d362.png": "/static/media/frienemies.0749d362.png",
@@ -24,7 +24,7 @@
   "entrypoints": [
     "static/js/runtime-main.a9f80a17.js",
     "static/js/2.56bc4b8b.chunk.js",
-    "static/css/main.c85a7a67.chunk.css",
-    "static/js/main.aaf761ec.chunk.js"
+    "static/css/main.1e76872b.chunk.css",
+    "static/js/main.4564e1e7.chunk.js"
   ]
 }
