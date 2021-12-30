@@ -15,6 +15,7 @@ const Contact = () => {
             <div className='card-background'>
               <div>
                 <div className='col-md'>
+                  <p>This is my contact information</p>
                   <hr></hr>
                   <p>
                     <i className='fas fa-envelope me-3' />
@@ -31,6 +32,61 @@ const Contact = () => {
                     Austin, TX
                   </p>
                 </div>
+                <div className='mt-5'>
+                  <p>Or send a message directly to me here</p>
+                </div>
+
+                <hr></hr>
+                <form
+                  style={{ backgroundColor: "black", opacity: ".85" }}
+                  action='https://getform.io/f/de71c49e-3c1d-4e0b-bd18-6cea7ad61344'
+                  method='POST'
+                >
+                  <div>
+                    <label>Name :</label>
+                    <div>
+                      <input
+                        className='mb-2'
+                        type='text'
+                        name='name'
+                        // defaultValue='Full Name'
+                      ></input>
+                    </div>
+                  </div>
+
+                  <div>
+                    <label>Email :</label>
+                    <div>
+                      <input
+                        className='mb-2'
+                        type='email'
+                        name='email'
+                        // defaultValue='email address'
+                      ></input>
+                    </div>
+                  </div>
+                  <div>
+                    <label>Message:</label>
+                    <div>
+                      <textarea
+                        className='mb-2'
+                        style={{
+                          backgroundColor: "#fff",
+                          height: "50px",
+                          width: "235px",
+                        }}
+                        type='text'
+                        name='message'
+                        placeholder='Enter your message'
+                        required='required'
+                      ></textarea>
+                    </div>
+                  </div>
+                  <button type='submit'>Send</button>
+                  <p>
+                    Powered by <a href='https://getform.io/' target='blank'>GetForm</a>
+                  </p>
+                </form>
               </div>
             </div>
           </div>

@@ -21,6 +21,7 @@ const Project = (props) => {
                       <div
                         className='card hover'
                         style={{
+                          border: '3px white solid',
                           perspective: "272px",
                           // border: "CornflowerBlue 5px solid",
                           borderRadius: "10px",

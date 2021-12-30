@@ -7,7 +7,7 @@ function Home() {
       <div id='home' className='row neonCity ' style={{ height: "100vh" }}>
         <div>
           <div>
-            <div className='introCard text-center'>
+            <div className='introCard text-center fade-in'>
               <p>HELLO, I'M DAMIAN DELEON.</p>
               <p>FULL STACK WEB DEVELOPER </p>
             </div>
